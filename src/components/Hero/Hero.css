@@ -1,0 +1,50 @@
+.Hero {
+    background-image: url('/images/hero_section/cover_photo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.heroTitle {
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.heroTitle h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.Hero p {
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.heroForm h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
+.heroForm {
+    background-color: white;
+    border-radius: 10px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    height: 100%;
+    padding: 40px;
+}
+
+.formLabels {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
