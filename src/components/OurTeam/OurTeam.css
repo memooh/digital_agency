@@ -1,0 +1,46 @@
+.OurTeam {
+    margin-top: 5%;
+}
+.ourTeamText h1 {
+    font-weight: bold;
+}
+.half-size {
+    width: 100% !important;
+    margin: 0 auto;
+    display: block;
+}
+
+.card-bodys {
+    padding: 30px;
+}
+
+.card-ourTeam {
+    border-radius: 0px !important;
+}
+
+.social-icons {
+    color: #00A0C1;
+}
+@media screen and (max-width: 767px) {
+    .OurTeam {
+        margin-top: 10%;
+    }
+
+    .ourTeamText h1 {
+        font-size: 24px;
+    }
+
+
+    .card-bodys {
+        padding: 20px;
+    }
+
+    .card-ourTeam {
+        margin-bottom: 20px;
+        width: 80% !important;
+    }
+
+    .social-icons {
+        font-size: 18px;
+    }
+}

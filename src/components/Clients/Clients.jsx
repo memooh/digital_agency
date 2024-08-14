@@ -1,4 +1,4 @@
-import ".//Clients.css";
+import "./Clients.css";
 
 const Clients = () => {
   const reviews = [
