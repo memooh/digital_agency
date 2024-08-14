@@ -27,13 +27,17 @@ const Hero = () => {
     <section className="Hero">
       <div className="container">
         <div className="row align-items-center" style={{ height: "100%" }}>
-          <div className="col-md-8 heroTitle">
+          <div className="col-12 col-lg-8 heroTitle">
             <h1>Drive More Customers Through Digital</h1>
             <p className="mt-5">
               We know how large objects will act, but things on a small scale.
             </p>
+            <div className="heroButtons">
+              <button className="hbStyle1">Get Quote Now</button>
+              <button className="hbStyle2">Learn More</button>
+            </div>
           </div>
-          <div className="col-md-4 d-flex align-items-center">
+          <div className="col-12 col-lg-4 d-flex align-items-center">
             <div className="heroForm w-100">
               <h1>Book Appointment</h1>
               <form onSubmit={handleSubmit}>
