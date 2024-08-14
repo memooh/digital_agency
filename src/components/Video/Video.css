@@ -1,0 +1,47 @@
+.videoSection {
+    margin-top: 5%;
+    background-color: #252B42;
+    padding: 50px 0;
+}
+
+.videoContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vsText h1 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.vsText p {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.vsVideo {
+    width: 100%;
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 20px auto 0;
+}
+
+@media (max-width: 768px) {
+    .videoSection {
+        min-height: auto;
+    }
+
+    .vsVideo {
+        width: 95%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1919.99px) {
+    .vsVideo {
+        width: 90%; /* Increase the video width */
+        max-width: 1200px; /* Increase the maximum width */
+    }
+}
