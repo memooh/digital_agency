@@ -1,0 +1,53 @@
+.whyChooseUs {
+    margin-top: 5%;
+}
+
+.wcuText h1 {
+    font-weight: bold;
+    font-size: 62px;
+}
+.card {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.card-body{
+    background-color: #A9D6FF;
+    height: 150px;
+}
+.card-title {
+    font-weight: bold;
+}
+.iconCard {
+    background-color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #FFA62B;
+}
+
+
+.wcuList li {
+    list-style-type: '- ';
+    color: #737373;
+    margin-bottom: 5px;
+}
+.wcuLink {
+    color: #FFA62B;
+    text-decoration: none;
+}
+
+.card-body2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+  }
+
+@media screen {
+    
+}
