@@ -48,3 +48,35 @@
     height: 200px;
   }
 
+@media screen and (max-width: 767px) {
+
+
+    .card {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .wcuList li {
+        font-size: 16px;
+    }
+    .wcuLink {
+        font-size: 16px;
+    }
+    .card-body {
+        height: auto;
+        padding: 15px;
+    }
+
+    .iconCard {
+        width: 60px;
+        height: 60px;
+        padding: 15px;
+    }
+
+    .card-body2 {
+        height: auto;
+        padding: 15px;
+    }
+}
