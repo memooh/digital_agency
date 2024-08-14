@@ -1,0 +1,40 @@
+.contactUs {
+    margin-top: 5%;
+    background-image: url('images/contact_us/background.png');  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 85vh;
+    padding: 40px 0;
+}
+
+.appBooksBtn, .contactBtn {
+    background-color: #FFA62B;
+    padding: 20px;
+    border-radius: 5px;
+    border: transparent 0px solid;
+    width: 100%;
+}
+
+.consultingAgency {
+    min-height: 15vh;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.consultingAgency h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form .row {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+    .consultingAgency, .contactForm, .contactUs h1, .contactUs h4{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

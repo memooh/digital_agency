@@ -87,7 +87,7 @@ const Hero = () => {
                     onChange={handleChange}
                   />
                 </div>
-                <button type="submit" className="btn btn-primary w-100">
+                <button type="submit" className="appBooksBtnMain">
                   Book Appointment
                 </button>
               </form>

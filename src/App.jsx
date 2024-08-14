@@ -6,6 +6,7 @@ import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs'
 import Video from './components/Video/Video'
 import Clients from './components/Clients/Clients'
 import OurTeam from './components/OurTeam/OurTeam'
+import ContactUs from './components/ContactUs/ContactUs'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <Video />
     <Clients />
     <OurTeam />
+    <ContactUs />
     </>
   )
 }
