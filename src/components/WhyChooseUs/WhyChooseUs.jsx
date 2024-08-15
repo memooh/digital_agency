@@ -2,7 +2,7 @@ import "./WhyChooseUs.css";
 
 const WhyChooseUs = () => {
   return (
-    <section className="whyChooseUs">
+    <section id="whyUs" className="whyChooseUs">
       <div className="container">
         <div className="wcuText text-center">
           <h1>Why Choose Us</h1>
@@ -13,7 +13,7 @@ const WhyChooseUs = () => {
         </div>
         <div className="wcuCards">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body d-flex align-items-center justify-content-center">
                   <div className="d-flex align-items-center">
@@ -39,7 +39,7 @@ const WhyChooseUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body d-flex align-items-center justify-content-center">
                   <div className="d-flex align-items-center">
@@ -65,7 +65,7 @@ const WhyChooseUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body d-flex align-items-center justify-content-center">
                   <div className="d-flex align-items-center">

@@ -29,7 +29,7 @@ const Clients = () => {
   ];
 
   return (
-    <section className="clients">
+    <section id="reviews" className="clients">
       <div className="container">
         <div className="clientText text-center">
           <h1>What Clients Say</h1>

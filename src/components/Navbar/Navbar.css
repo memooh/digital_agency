@@ -1,0 +1,17 @@
+.navbar {
+    background-color: transparent;
+}
+
+.navbar li {
+    color: black !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        background-color: white;
+    }
+}
