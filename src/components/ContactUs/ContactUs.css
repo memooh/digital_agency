@@ -22,6 +22,12 @@
     /* text-align: center; */
 }
 
+.contactUs h4, .contactUs h1{
+    font-weight: bold;
+}
+.contactUs h1 {
+    font-size: 32px;
+}
 .consultingAgency h1 {
     font-weight: bold;
     text-transform: uppercase;
@@ -37,7 +43,16 @@ form .row {
         margin-left: 10%;
         margin-right: 10%;
     }
+    .consultingAgency h1 {
+        font-size: 20px;
+    }
+    .consultingAgency p {
+        font-size: 16px;
+    }
     .form-control, .form-select {
         margin-top: 5%;
     }
 }
+
+
+  
