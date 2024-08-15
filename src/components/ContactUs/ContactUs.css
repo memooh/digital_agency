@@ -19,7 +19,7 @@
 .consultingAgency {
     min-height: 15vh;
     padding: 20px 0;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .consultingAgency h1 {
@@ -36,5 +36,8 @@ form .row {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+    }
+    .form-control, .form-select {
+        margin-top: 5%;
     }
 }
