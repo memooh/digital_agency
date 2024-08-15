@@ -4,7 +4,6 @@
 
 .wcuText h1 {
     font-weight: bold;
-    font-size: 62px;
 }
 .card {
     margin-top: 10%;
@@ -50,7 +49,10 @@
 
 @media screen and (max-width: 767px) {
 
-
+    .wcuText h1 {
+        font-weight: bold;
+        font-size: 52px;
+    }
     .card {
         margin-top: 5%;
         margin-bottom: 5%;

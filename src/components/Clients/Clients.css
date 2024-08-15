@@ -10,7 +10,6 @@
 
 .clientText h1 {
     font-weight: bold;
-    font-size: 62px;
     padding-top: 10%;
 }
 
@@ -34,7 +33,7 @@
 
 @media screen and (max-width: 767px) {
   .clientText h1 {
-    font-size: 36px;
+    font-size: 52px;
     padding-top: 5%;
   }
   .card {

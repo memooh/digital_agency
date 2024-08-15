@@ -33,7 +33,7 @@ const OurTeam = () => {
         <div className="ourTeamCards">
           <div className="row">
             {ourTeam.map((member) => (
-              <div className="col-lg-4" key={member.id}>
+              <div className="col-md-6 col-lg-4" key={member.id}>
                 <div
                   className="card card-ourTeam mx-auto"
                   style={{ width: "100%" }}

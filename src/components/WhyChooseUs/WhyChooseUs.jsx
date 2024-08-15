@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
     <section className="whyChooseUs">
       <div className="container">
         <div className="wcuText text-center">
-          <h1>WHY CHOOSE US</h1>
+          <h1>Why Choose Us</h1>
           <p>
             Problems trying to resolve the conflict between <br /> the two major
             realms of Classical physics: Newtonian mechanics
